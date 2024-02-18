@@ -20,6 +20,9 @@ const ContactForm = () => (
       <label>Message</label>
       <textarea placeholder="Message" />
     </FormField>
+    <FormField>
+      <Checkbox label="I would like my free SEO anaylsis" />
+    </FormField>
 
     <Button type="submit" onClick={sendEmail}>
       Submit
