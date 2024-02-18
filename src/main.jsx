@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'semantic-ui-css/semantic.min.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Contact from './pages/Contact';
 import Services from './pages/Services';
