@@ -222,4 +222,12 @@ header {
     max-width: 80vw;
     margin: 15px;
   }
+
+  footer {
+    margin-bottom: 10px;
+  }
+
+  .hero-text {
+    margin-top: -160px;
+  }
 }
