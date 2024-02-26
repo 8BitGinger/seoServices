@@ -1,33 +1,38 @@
 import React from 'react';
-import { FormField, Button, Checkbox, Form } from 'semantic-ui-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 function sendEmail() {
   alert('Email Sent!');
-  window.location.reload();
+
+  window.location.href = '/';
 }
 
-const ContactForm = () => (
-  <Form>
-    <FormField>
-      <label>Name</label>
-      <input placeholder="Name" />
-    </FormField>
-    <FormField>
-      <label>Email</label>
-      <input placeholder="Email" />
-    </FormField>
-    <FormField>
-      <label>Message</label>
-      <textarea placeholder="Message" />
-    </FormField>
-    <FormField>
-      <Checkbox label="I would like my free SEO anaylsis" />
-    </FormField>
+function ContactForm() {
+  const [state, handleSubmit] = useForm('xkndbbjk');
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+  return (
+    <form
+      action="https://formspree.io/f/xkndbbjk"
+      method="POST"
+      className="column"
+      onSubmit={sendEmail}
+    >
+      <label htmlFor="name">Name</label>
+      <input id="name" type="name" name="name" />
 
-    <Button type="submit" onClick={sendEmail}>
-      Submit
-    </Button>
-  </Form>
-);
+      <label htmlFor="email">Email Address</label>
+      <input id="email" type="email" name="email" />
+      <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <label htmlFor="message">Message</label>
+      <textarea id="message" name="message" />
+      <ValidationError prefix="Message" field="message" errors={state.errors} />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+  );
+}
 
 export default ContactForm;
