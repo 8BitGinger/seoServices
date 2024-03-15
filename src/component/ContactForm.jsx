@@ -10,13 +10,13 @@ function sendEmail() {
 function ContactForm() {
   const [state, handleSubmit] = useForm('xkndbbjk');
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thanks for reaching out!</p>;
   }
   return (
     <form
       action="https://formspree.io/f/xkndbbjk"
       method="POST"
-      className="column"
+      className="column form"
       onSubmit={sendEmail}
     >
       <label htmlFor="name">Name</label>

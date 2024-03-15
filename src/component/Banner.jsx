@@ -1,13 +1,13 @@
 import React from 'react';
-import bannerLogo from '../assets/seo-background2.jpg';
+import bannerLogo from '../assets/skyrocketSEO.png';
 
 const Banner = () => {
   return (
     <div className="banner">
-      <img src={bannerLogo} alt="banner" />
+      <img src={bannerLogo} alt="tech screens with statistics" />
       <div className="hero-text">
-        <h1>SEO Services</h1>
-        <p>Optimize your website with our SEO services</p>
+        <h1>SkyRocket SEO</h1>
+        <p>Let us SkyRocket your Site&apos;s Visibility!</p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { MenuItem, Menu } from 'semantic-ui-react';
-import logo from '../assets/seo.png';
+import { MenuItem, Menu, Icon } from 'semantic-ui-react';
+import logo from '../assets/rocketShip.png';
 import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
@@ -12,35 +12,42 @@ export default class Header extends Component {
     const { activeItem } = this.state;
 
     return (
-      <header>
-        <Menu inverted alt="navbar">
-          <MenuItem header>
-            <img className="spin" alt="logo" src={logo}></img>
-          </MenuItem>
-          <MenuItem
-            name="home"
-            active={activeItem === 'home'}
-            onClick={this.handleItemClick}
-            as={Link}
-            to="/"
-          />
-          <MenuItem
-            name="services"
-            active={activeItem === 'services'}
-            onClick={this.handleItemClick}
-            as={Link}
-            to="/services"
-          />
+      <nav>
+        <Menu inverted className="navbar">
+          <img className="float" alt="rocket ship" src={logo}></img>
 
-          <MenuItem
-            name="contact"
-            active={activeItem === 'contact'}
-            onClick={this.handleItemClick}
-            as={Link}
-            to="/contact"
-          />
+          <div className="icons">
+            <MenuItem
+              name="home"
+              active={activeItem === 'home'}
+              onClick={this.handleItemClick}
+              as={Link}
+              to="/"
+            >
+              <Icon className="icon" name="home" />
+            </MenuItem>
+            <MenuItem
+              name="services"
+              active={activeItem === 'services'}
+              onClick={this.handleItemClick}
+              as={Link}
+              to="/services"
+            >
+              <Icon className="icon" name="chart bar outline" />
+            </MenuItem>
+
+            <MenuItem
+              name="contact"
+              active={activeItem === 'contact'}
+              onClick={this.handleItemClick}
+              as={Link}
+              to="/contact"
+            >
+              <Icon className="icon" name="envelope open outline" />
+            </MenuItem>
+          </div>
         </Menu>
-      </header>
+      </nav>
     );
   }
 }
