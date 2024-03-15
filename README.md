@@ -1,22 +1,28 @@
-# **_SEO_** Services
+<div align="center">
 
-## Search Engine Optimization
+![screenshot](./src/assets/rocketShip-readme.png)
 
-SEO is important for a variety of factors including Organic Web Traffic, Cost Effective Marketing, and Accessibility.
+</div>
 
-This is a landing page for SEO Services a mock-up of an SEO focused company to show SEO best practices and skills.
+# **_SkyRocket SEO_**
 
-SEO Services is designed with these things in mind. We re-vamp your existing site or create a new one using the best practices and up to date SEO tactics to position your brand for success!
+## SEO Agency
+
+Struggling to attract organic traffic? SkyRocket SEO can help! We are an SEO agency specializing in skyrocketing (see what we did there?) your website's visibility in search engines.
+
+Why is SEO important? It drives free, targeted traffic to your website, making your marketing efforts more cost-effective. Additionally, SEO best practices often improve website accessibility and user experience, which search engines love!
+
+SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tactics to revamp your existing website or build a brand new one from the ground up, all optimized to land you on the first page of search results.
 
 ---
 
 ## Screenshots
 
-## ![screenshot-main](./src/assets/seo-main.png)
+![screenshot-main](./src/assets/seo-main.png)
 
 ---
 
-## ![screenshot-main](./src/assets/seo-services.png)
+![screenshot-main](./src/assets/seo-services.png)
 
 ---
 
@@ -39,11 +45,19 @@ SEO Services is designed with these things in mind. We re-vamp your existing sit
   },
 ```
 
-- React - Front End Framework
-- Framer - Motion and Animation
-- Semantic UI - Components
-- Vite - Development Server
-- Formspree - Contact Form Handling
+| Tech        | Purpose               |
+| ----------- | --------------------- |
+| React       | Front End Framework   |
+| Framer      | Motion and Animation  |
+| Semantic UI | Components            |
+| Vite        | Development Server    |
+| Formspree   | Contact Form Handling |
+
+---
+
+## Links
+
+[Deployed Site](https://seoservices.onrender.com/)
 
 ## Contact
 
