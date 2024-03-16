@@ -14,8 +14,9 @@ export default class Header extends Component {
     return (
       <nav>
         <Menu inverted className="navbar">
-          <img className="float" alt="rocket ship" src={logo}></img>
-
+          <Link to="/">
+            <img className="float" alt="rocket ship" src={logo}></img>
+          </Link>
           <div className="icons">
             <MenuItem
               name="home"
