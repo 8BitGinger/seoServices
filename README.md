@@ -1,6 +1,6 @@
 <div align="center">
 
-![screenshot](./src/assets/rocketShip-readme.png)
+![screenshot](./rocketShip-readme.png)
 
 </div>
 
@@ -18,15 +18,15 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
 
 ## Screenshots
 
-![screenshot-main](./src/assets/seo-main.png)
+![screenshot-main](./seo-main.png)
 
 ---
 
-![screenshot-main](./src/assets/seo-services.png)
+![screenshot-main](./seo-services.png)
 
 ---
 
-![screenshot-main](./src/assets/seo-contact.png)
+![screenshot-main](./seo-contact.png)
 
 ---
 
@@ -45,13 +45,13 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
   },
 ```
 
-| Tech        | Purpose                 |
-| ----------- | ----------------------- |
-| React       | Front End Framework     |
-| Framer      | Motion and Animation    |
-| Semantic UI | Components              |
-| Vite        | Development Environment |
-| Formspree   | Contact Form Handling   |
+| Tech        | Purpose               |
+| ----------- | --------------------- |
+| React       | Front End Framework   |
+| Framer      | Motion and Animation  |
+| Semantic UI | Components            |
+| Vite        | Development Framework |
+| Formspree   | Contact Form Handling |
 
 ---
 
