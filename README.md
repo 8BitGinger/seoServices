@@ -45,13 +45,13 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
   },
 ```
 
-| Tech        | Purpose               |
-| ----------- | --------------------- |
-| React       | Front End Framework   |
-| Framer      | Motion and Animation  |
-| Semantic UI | Components            |
-| Vite        | Development Server    |
-| Formspree   | Contact Form Handling |
+| Tech        | Purpose                 |
+| ----------- | ----------------------- |
+| React       | Front End Framework     |
+| Framer      | Motion and Animation    |
+| Semantic UI | Components              |
+| Vite        | Development Environment |
+| Formspree   | Contact Form Handling   |
 
 ---
 
