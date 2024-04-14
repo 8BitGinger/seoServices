@@ -1,10 +1,9 @@
-<div align="center">
-
-![screenshot](./src/assets/rocketShip-readme.png)
-
-</div>
+<a id="badges"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # **_SkyRocket SEO_**
+
+![screenshot](./src/assets/skyrocketSEOProject.jpg)
 
 ## SEO Agency
 
@@ -62,3 +61,11 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
 ## Contact
 
 [Email](mailto:ryan.fann@gmail.com)
+
+---
+
+<div align="center">
+
+![screenshot](./src/assets/rocketShip-readme.png)
+
+</div>
