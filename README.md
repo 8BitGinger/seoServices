@@ -3,7 +3,11 @@
 
 # **_SkyRocket SEO_**
 
+<div align="center">
+
 ![screenshot](./skyrocketSEOProject.jpg)
+
+</div>
 
 ## SEO Agency
 
@@ -66,6 +70,6 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
 
 <div align="center">
 
-![screenshot](./src/assets/rocketShip-readme.png)
+![screenshot](./rocketShip-readme.png)
 
 </div>
