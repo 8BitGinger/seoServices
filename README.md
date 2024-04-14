@@ -3,7 +3,7 @@
 
 # **_SkyRocket SEO_**
 
-![screenshot](./src/assets/skyrocketSEOProject.jpg)
+![screenshot](./skyrocketSEOProject.jpg)
 
 ## SEO Agency
 
