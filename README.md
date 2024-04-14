@@ -17,15 +17,15 @@ SkyRocket SEO is your one-stop shop for all things SEO. We'll use the latest tac
 
 ## Screenshots
 
-![screenshot-main](./src/assets/seo-main.png)
+![screenshot-main](./seo-main.png)
 
 ---
 
-![screenshot-main](./src/assets/seo-services.png)
+![screenshot-main](./seo-services.png)
 
 ---
 
-![screenshot-main](./src/assets/seo-contact.png)
+![screenshot-main](./seo-contact.png)
 
 ---
 
